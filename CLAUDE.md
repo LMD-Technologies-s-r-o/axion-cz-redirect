@@ -1,4 +1,4 @@
-# Axion – přesměrování axion-cad.cz
-Tohle repo NENÍ web. Jen přesměruje **axion-cad.cz** → **https://axion-cad.com/#cs** (česká verze).
-Obsahuje pouze `index.html` + `404.html` (stejné přesměrování), `CNAME` a `.nojekyll`.
-**Nikdy sem nekopírovat web** – ten žije v repu `axion-web`.
+# Axion – česká verze webu (axion-cad.cz)
+**Generovaný obsah – needitovat ručně.** Zdroj je repo `axion-web` (anglické stránky + český slovník
+v `assets/site.js`). Česká verze se vytváří příkazem `python3 tools/build.py <cesta k tomuto repu>`
+v repu `axion-web` a pak se pushne sem. Každý push do `main` = web axion-cad.cz se aktualizuje.
